@@ -27,6 +27,8 @@ body{
   width: 100%;
   display: flex;
   flex-direction: row;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .mood-icon{
   margin: 0;
@@ -35,12 +37,12 @@ body{
 }
 .mood-icon a{
   color: #fff;
-  font-size: 12rem;
+  font-size: 11rem;
   font-weight: 600;
 }
 .main-header-list img{
-  height: 120px;
-  width: 120px;
+  height: 110px;
+  width: 110px;
   position: relative;
   top: 50%;
   transform: perspective(1px) translateY(-50%);
@@ -49,5 +51,5 @@ body{
   margin: 0 auto;
 }
 .main-header-list :nth-child(n+2){
-  padding-left: 12px;
+  padding-left: 30px;
 }
