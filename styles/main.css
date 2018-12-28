@@ -18,7 +18,7 @@ body{
 /* css reset */
 .main-header{
   position: absolute;
-  display: flex;
+  display: block;
   width: 100vw;
   height: 8vh;
 }
@@ -27,25 +27,27 @@ body{
   width: 100%;
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
-  vertical-align: middle;
 }
 .mood-icon{
-  width: 25%;
   margin: 0;
   float: left;
   flex-grow: 3;
 }
 .mood-icon a{
   color: #fff;
-  font-size: 7rem;
+  font-size: 12rem;
   font-weight: 600;
 }
 .main-header-list img{
-  height: 125px;
-  width: 125px;
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+}
+.main-header-list a{
+  margin: 0 auto;
 }
 .main-header-list :nth-child(n+2){
   padding-left: 12px;
-  margin: 0 auto;
 }
