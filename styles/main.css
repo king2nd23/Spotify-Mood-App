@@ -15,8 +15,8 @@ body{
   font-family: 'Changa', sans-serif;
   box-sizing: border-box;
   background-color: #000;
-  border: 1px solid #fff;
-  margin: 30px 120px 120px 120px;
+  /* border: 1px solid #fff; */
+  /* margin: 10%; */
 }/* css reset */
 
 .icon-list{
@@ -26,12 +26,18 @@ body{
 .mood-icon{
   font-size: 5rem;
   font-weight: 900;
+  flex-grow: 3;
 }
 .icon-list img{
   width: 50px;
   height: 50px;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
 }
-
+.icon-list a{
+align-items: center;
+}
 
 
 
