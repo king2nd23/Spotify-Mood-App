@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: inherit;
   list-style: none;
+  text-decoration: none;
 }
 html{
   font-size: 62.5%; /*(10px => 1rem)*/
@@ -12,5 +13,17 @@ html{
 body{
   font-family: 'Changa', sans-serif;
   box-sizing: border-box;
+  background-color: #000;
 }
 /* css reset */
+.main-header-list{
+  position: relative;
+  width: 100vh;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+}
+.main-header-list img{
+  height: 192px;
+  width: 192px;
+}
