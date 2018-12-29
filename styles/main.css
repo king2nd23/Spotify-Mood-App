@@ -26,6 +26,7 @@ body{
 .mood-icon{
   font-size: 5rem;
   font-weight: 900;
+  letter-spacing: -2px;
   flex-grow: 3;
 }
 .icon-list img{
