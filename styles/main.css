@@ -15,8 +15,7 @@ body{
   font-family: 'Changa', sans-serif;
   box-sizing: border-box;
   background-color: #000;
-  /* border: 1px solid #fff; */
-  /* margin: 10%; */
+  margin: 2%;
 }/* css reset */
 
 .icon-list{
@@ -39,11 +38,26 @@ body{
 .icon-list a{
 align-items: center;
 }
+.search{
+height: 60px;
+}
+.search-box{
+  width: 90%;
+  height: 30px;
+  display: inline-block;
+}
+.search-image{
+  width: 5%;
+  height: 36px;
+  display: inline-block;
 
-
-
-
-
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-32%);
+}
+.search-image img{
+  height: 45px;
+}
 
 
 
